@@ -1,14 +1,17 @@
 <br>
 
-<h1 align="center">Implementing Security Controls Towards NIST SP 800-53 Compliance</h1>
+<h1 align="center">Secure Cloud Configuration - Part 1</h1>
 
 <br>
+
+<h2 align="center">Regulatory Compliance ➜ Enable NIST 800-53</h2>
 
 <br>
 
 <p align="center">
-<img width="900" src="https://github.com/user-attachments/assets/66745d60-fc59-406b-9955-b371304e4d98" alt="Banner"/>
-<br />
+<img width="900" src="https://github.com/user-attachments/assets/8f385673-05f1-4945-977f-3ce95d62aed5" alt="Banner"/>
+
+<br>
 
 <br>
 
@@ -52,9 +55,9 @@ Recommentdations:
 <summary> <h2>1️⃣ Enabling Regulatory Compliance (NIST 800-53) in MDC</h2> </summary>
 <br>
 
-Adding [**NIST 800-53: Security and Privacy Controls for Information Systems and Organizations**]() to **Microsoft Defender for Cloud**.
+Adding [**NIST 800-53: Security and Privacy Controls for Information Systems and Organizations**](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) to **Microsoft Defender for Cloud**.
 
-💡 [**Full Publication**]().
+💡 [**Full Publication**](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf).
 
 To add NIST 800-53:
 
