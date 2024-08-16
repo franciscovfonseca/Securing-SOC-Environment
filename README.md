@@ -1,26 +1,145 @@
 <br>
 
-<h1 align="center">Securing Cloud Environment</h1>
+<h1 align="center">Implementing Security Controls Towards NIST SP 800-53 Compliance</h1>
 
 <br>
-
-<br>
-
-In this lab we're gong to **Investigate and Work the Incidents** being generated within **Microsoft Sentinel**.
-
-We'll do this in accordance with the [**NIST 800-61**](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf) **Incident Management Lifecycle**.
 
 <br>
 
 <p align="center">
 <img width="900" src="https://github.com/user-attachments/assets/66745d60-fc59-406b-9955-b371304e4d98" alt="Banner"/>
 <br />
-<br />
 
+<br>
+
+Bellow is the current **Network Topology** (via Network Watcher) **BEFORE Securing the Environment**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+<br> 
+
+In this Lab we're going to Implementing Security Controls in order to better Secure our Environment.
+
+The following is the MDC Security Score for our Environment BEFORE Hardening it:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+Recommentdations:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+<br>
 
 <details close> 
-<summary> <h2>➡️ 4 Step Incident Response Guidance / Guidelines</h2> </summary>
+<summary> <h2>1️⃣ Enabling Regulatory Compliance (NIST 800-53) in MDC</h2> </summary>
 <br>
+
+Adding [**NIST 800-53: Security and Privacy Controls for Information Systems and Organizations**]() to **Microsoft Defender for Cloud**.
+
+💡 [**Full Publication**]().
+
+To add NIST 800-53:
+
+  - First inside the MDC home page ➜ click on the **Regulatory Compliance** blade on the left side:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+  - Then at the top ➜ click on **Manage compliance policies**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+  - We'll then click on our **Subscription**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+  - Inside the **Security policy** blade ➜ under **Industry & regulatory standards**  ➜ click on the **"Add more standards"** button:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+  - Add ```NIST 800-53 R5``` as a **Regulatory Compliance Standard**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+
+After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfully assigned to our Subscription ✅
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+
+⚠️ Again ➜ it takes some time for the policy to be added to our Environment ➜ but eventually it should appear inside of our MDC Dashboard ➜ under **Regulatory Compliance**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+
+>   <details close> 
+>   
+> **<summary> 📝 Explanation</summary>**
+> 
+> GO TO MIN 11 AND WRITE WHAT JOSH IS SAYING EXPLAINING NIST 800 53 !!!!!!!!!!!!
+> 
+> In our case we configured a bunch of Alerts ➜ and the fact that an **Incident was Created** ➜ is the beggining of our **Detection Phase**.
+> 
+>   </details>
+
+
+
+
+
+
+Use this simple [**Incident Response PlayBook**](https://docs.google.com/document/d/1EQ5MzN95POLaRIMulYg3PIH3UGHtDNcGdkFvgOXyEXQ/edit#heading=h.uyxi3urvol4g) to **Remediate the Incident**.
+
+
+
+
+
+
+
 
 ## Step ➀ ➜ Preparation
 
