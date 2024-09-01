@@ -1,10 +1,8 @@
-<br>
-
 <h1 align="center">Secure Cloud Configuration - Part 1</h1>
 
 <br>
 
-<h2 align="center">Regulatory Compliance ➜ Enable NIST 800-53</h2>
+<h2 align="center">Regulatory Compliance: Enable NIST 800-53</h2>
 
 <br>
 
@@ -15,45 +13,90 @@
 
 <br>
 
-Bellow is the current **Network Topology** (via Network Watcher) **BEFORE Securing the Environment**:
+In the previous labs we went through and did some incident response, and we even remediated a little bit of vulnerabilities with like hardening the NSGs.
 
-<br>
+We also captured our Environment´s traffic in an insecured state for 24 hours and we recorded our Security Metrics.
 
-![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+In this lab, and in the subsequent following labs ➜ we’re going to work towards securing our Environment.
 
-<br>
+Basically in this lab we’re just going to:
 
-<br>
+  -	Look at Microsoft Defender for Cloud’s Secure Score.
+  -	Look at Microsoft Defender for Cloud’s Recommendations, and learn what that is.
+  -	Enable MDC’s Regulatory Compliance for NIST 800-53.
 
-![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
-
-<br>
-
-<br> 
-
-In this Lab we're going to Implementing Security Controls in order to better Secure our Environment.
-
-The following is the MDC Security Score for our Environment BEFORE Hardening it:
-
-<br>
-
-![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
-
-<br>
-
-Recommentdations:
-
-<br>
-
-![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+>   <details close> 
+>   
+> **<summary> 💡 Note:</summary>**
+> 
+> If you remember ➜ NIST 800-53 is the Security and Privacy control family.
+> 
+> It’s basically just a really large catalog of controls that you can use to either evaluate or help secure your environment.
+> 
+> And basically, when we enable the NIST 800-53 Regulatory Compliance in Azure – it’s going to show us things that we can do in Azure to secure our Environment that kind of align with NIST 800-53 controls.
+> 
+> And I think it’s really good, because it gives us a better intuition of what NIST 800-53 is for, and like how it’s used and why it’s useful.
+>   
+>   </details>
 
 <br>
 
 <br>
 
 <details close> 
-<summary> <h2>1️⃣ Enabling Regulatory Compliance (NIST 800-53) in MDC</h2> </summary>
+<summary> <h2>1️⃣ Inspect MDC Secure Score & Recommendations</h2> </summary>
 <br>
+
+The first thing we’re going to do is Inspect the [**Microsoft Defender for Cloud Secure Score**](https://learn.microsoft.com/en-us/defender-xdr/microsoft-secure-score?view=o365-worldwide)
+
+We’ll go to the **Azure Portal** ➜ open **Microsoft Defender for Cloud**:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+>   <details close> 
+>   
+> **<summary> 💡 </summary>**
+> 
+> Defender for Cloud provides us with this Secure Score.
+> 
+> It’s basically just a really large catalog of controls that you can use to either evaluate or help secure your environment.
+> 
+> It’s sort of a single metric that we can use to gage our Security Posture and how good it is.
+>   
+>   </details>
+
+<br>
+
+If we click on the Dashboard -> and then on “Recommendations” -> it’ll show us all the things that are contributing to:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+
+
+
+
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+
 
 Adding [**NIST 800-53: Security and Privacy Controls for Information Systems and Organizations**](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) to **Microsoft Defender for Cloud**.
 
