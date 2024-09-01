@@ -13,7 +13,7 @@
 
 In the previous labs we performed some **Incident Response**, and we even **Remediated some Vulnerabilities** like Hardening the NSGs.
 
-We also Captured our **Environment's Traffic** in an Insecured State for 24 hours & Recorded our **Security Metrics**.
+We also **Captured our Environment's Traffic** in an Insecured State for 24 hours & **Recorded our Security Metrics**.
 
 <br>
 
@@ -212,7 +212,7 @@ To add NIST 800-53:
 
 <br>
 
-  - We'll then click on our **Subscription**:
+  - We'll then click on our ```Azure subscription 1```:
 
 <br>
 
@@ -236,6 +236,15 @@ To add NIST 800-53:
 
 <br>
 
+- We'll leave the Configuration Settings for the Initiative Assignment as the Default ones ➜ and click **"Create"**
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+⚠️ The Policy Initiative Assignment takes a few minutes to take effect.
 
 After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfully assigned to our Subscription ✅
 
@@ -246,7 +255,9 @@ After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfull
 <br>
 
 
-⚠️ Again ➜ it takes some time for the policy to be added to our Environment ➜ but eventually it should appear inside of our MDC Dashboard ➜ under **Regulatory Compliance**:
+⚠️ Again ➜ it takes some time for the policy to be added to our Environment.
+
+But eventually it should appear inside of our MDC Dashboard ➜ under **Regulatory Compliance**:
 
 <br>
 
@@ -260,6 +271,14 @@ After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfull
 > **<summary> 📝 Explanation</summary>**
 > 
 > GO TO MIN 11 AND WRITE WHAT JOSH IS SAYING EXPLAINING NIST 800 53 !!!!!!!!!!!!
+
+Basically NIST 800-53 contains abunch of Controls
+
+
+
+
+
+  
 > 
 > In our case we configured a bunch of Alerts ➜ and the fact that an **Incident was Created** ➜ is the beggining of our **Detection Phase**.
 > 
