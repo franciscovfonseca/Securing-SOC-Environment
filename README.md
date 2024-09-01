@@ -4,30 +4,36 @@
 
 <h2 align="center">Regulatory Compliance: Enable NIST 800-53</h2>
 
-<br>
-
 <p align="center">
-<img width="900" src="https://github.com/user-attachments/assets/8f385673-05f1-4945-977f-3ce95d62aed5" alt="Banner"/>
+<img width="700" src="https://github.com/user-attachments/assets/ba44e0c3-5ee1-4d97-b92a-13e15c4c6c1e" alt="Banner"/>
 
 <br>
 
 <br>
 
-In the previous labs we went through and did some incident response, and we even remediated a little bit of vulnerabilities with like hardening the NSGs.
+In the previous labs we performed some **Incident Response**, and we even **Remediated some Vulnerabilities** like Hardening the NSGs.
 
-We also captured our Environment´s traffic in an insecured state for 24 hours and we recorded our Security Metrics.
+We also Captured our **Environment's Traffic** in an Insecured State for 24 hours & Recorded our **Security Metrics**.
 
-In this lab, and in the subsequent following labs ➜ we’re going to work towards securing our Environment.
+<br>
 
-Basically in this lab we’re just going to:
+In this lab, and in the subsequent ones, we’ll work towards **Securing our Environment**.
 
-  -	Look at Microsoft Defender for Cloud’s Secure Score.
-  -	Look at Microsoft Defender for Cloud’s Recommendations, and learn what that is.
-  -	Enable MDC’s Regulatory Compliance for NIST 800-53.
+<br>
+
+Basically in this lab we’re going to:
+
+  -	Look at Microsoft Defender for Cloud’s **Secure Score**.
+    
+  -	Look at Microsoft Defender for Cloud’s **Recommendations**, and learn what that is.
+    
+  -	Enable MDC’s **Regulatory Compliance for NIST 800-53**.
+
+<br>
 
 >   <details close> 
 >   
-> **<summary> 💡 Note:</summary>**
+> **<summary> 💡 Note</summary>**
 > 
 > If you remember ➜ NIST 800-53 is the Security and Privacy control family.
 > 
@@ -61,9 +67,7 @@ We’ll go to the **Azure Portal** ➜ open **Microsoft Defender for Cloud**:
 >   
 > **<summary> 💡 </summary>**
 > 
-> Defender for Cloud provides us with this Secure Score.
-> 
-> It’s basically just a really large catalog of controls that you can use to either evaluate or help secure your environment.
+> Defender for Cloud provides us with a 🛡️ **Secure Score**.
 > 
 > It’s sort of a single metric that we can use to gage our Security Posture and how good it is.
 >   
@@ -71,7 +75,7 @@ We’ll go to the **Azure Portal** ➜ open **Microsoft Defender for Cloud**:
 
 <br>
 
-If we click on the Dashboard -> and then on “Recommendations” -> it’ll show us all the things that are contributing to:
+Then we can click on the **Recommendations** blade on the left side:
 
 <br>
 
@@ -79,6 +83,89 @@ If we click on the Dashboard -> and then on “Recommendations” -> it’ll sho
 
 <br>
 
+The interface will show us all the things that are contributing to our Environment’s **Security Score**.
+
+<br>
+
+  <details close> 
+  
+**<summary> 💡 </summary>**
+
+It’ll show us areas that essentially have gaps:
+
+➡️ So we can implement things in Azure & perform some Configurations in order to make our Security Score go Up.
+
+  </details>
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+🔍 We can look through all the different **Recommendations** and get a good sense of what we can do to **Harden our Environment**.
+
+<br>
+
+  </details>
+
+<h2></h2>
+
+<details close> 
+<summary> <h2>2️⃣ Enable NIST 800-53</h2> </summary>
+<br>
+
+The next thing we’re going to do is **Enable Regulatory Compliance for NIST 800-53**.
+
+Basically this is kind of going to do the same thing as the **MDC Secure Score Recommendations** ➜ but it’ll do it in the “lens” of **NIST 800-53**.
+
+<br>
+
+  <details close> 
+  
+**<summary> 📝 Refresher</summary>**
+
+<br>
+
+[NIST 800-53](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_0/home) is a really large control catalog with a lot of different control families like:
+
+-	 Access Control
+-	 Identification and Authentication
+-	 Incidence Response, etc.
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+These are all different categories ➜ and then inside of these there’s a lot of **Sub-Controls** essentially
+
+For example: inside of **"SC - SYSTEM AND COMMUNICATION PROTECTION"** ➜ there's a lot of different Categories:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+So when we enable NIST 800-53 Regulatory Compliance inside of Defender for Cloud ➜ it’s basically going to look at all the different Controls inside of NIST 800-53 and talk about different things we can do in our Environment that align with, for example, SC-7 or SC11:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+Essentially it will suggest different implementations we can do in Azure to bring our Environment "Up to Par" with NIST 800-53.
+
+In a way, show us Gaps in relation to Controls that exist in NIST 800-53.
+
+  </details>
+
+<br>
+
+
 
 
 
@@ -93,7 +180,12 @@ If we click on the Dashboard -> and then on “Recommendations” -> it’ll sho
 
 <br>
 
-<br>
+
+
+
+
+
+
 
 
 
@@ -175,91 +267,19 @@ After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfull
 
 
 
+<br>
 
-
-
-Use this simple [**Incident Response PlayBook**](https://docs.google.com/document/d/1EQ5MzN95POLaRIMulYg3PIH3UGHtDNcGdkFvgOXyEXQ/edit#heading=h.uyxi3urvol4g) to **Remediate the Incident**.
-
-
-
-
-
-
-
-
-## Step ➀ ➜ Preparation
-
-We've completed this step already by:
-
-- Setting Up **Logging** for all of our Resources.
-
-- **Ingesting all of the Logs** into the **Log Analytics Workspace**.
-
-- Configuring **Microsoft Sentinel** & **Alert Rules**.
+<br>
 
 <br>
 
 <br>
 
-## Step ➁ ➜ Detection & Analysis
 
-<br>
 
->   <details close> 
->   
-> **<summary> 📝 Explanation</summary>**
-> 
-> This phase gets kicked off when someone notices some kind of **Anomaly in the System**.
-> 
-> In our case we configured a bunch of Alerts ➜ and the fact that an **Incident was Created** ➜ is the beggining of our **Detection Phase**.
-> 
->   </details>
 
-<br>
 
-**1️⃣** Set the **Severity**, the **Status** & the **Owner** of the Incident.
 
-**2️⃣** **View Full Details**.
-
-**3️⃣** Observe the **Activity Log** (for the History of the Incident).
-
-**4️⃣** Observe the **Entities** & **Incident Timeline**.
-
-**5️⃣** **Investigate the Incident** and continue trying to **Determine the Scope**.
-
-**6️⃣** **Inspect the Entities** and see if there are any **Related Events**.
-
-**7️⃣** **Determine Legitimacy** of the Incident.
-
-**8️⃣** If **True Positive** ➜ Continue | If **False Positive** ➜ Close it out.
-
-<br>
-
-<br>
-
-## Step ➂ ➜ Containment, Eradication & Recovery
-
-Use this simple [**Incident Response PlayBook**](https://docs.google.com/document/d/1EQ5MzN95POLaRIMulYg3PIH3UGHtDNcGdkFvgOXyEXQ/edit#heading=h.uyxi3urvol4g) to **Remediate the Incident**.
-
-<br>
-
-<br>
-
-## Step ➃ ➜ Post-Incident Activity
-
-- Document Findings
-
-- Close out the Incident in Sentinel
-
-<br>
-
-  </details>
-
-<h2></h2>
-
-<details close> 
-<summary> <h2>Incident ❶ - Brute Force SUCCESS - Windows</h2> </summary>
-<br>
 
 > <details close> 
 >   
