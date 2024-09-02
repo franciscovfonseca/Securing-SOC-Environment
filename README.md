@@ -266,23 +266,66 @@ But eventually it should appear inside of our MDC Dashboard ➜ under **Regulato
 <br>
 
 
->   <details close> 
->   
-> **<summary> 📝 Explanation</summary>**
-> 
-> GO TO MIN 11 AND WRITE WHAT JOSH IS SAYING EXPLAINING NIST 800 53 !!!!!!!!!!!!
-
-Basically NIST 800-53 contains abunch of Controls
-
-
-
-
-
+  <details close> 
   
-> 
-> In our case we configured a bunch of Alerts ➜ and the fact that an **Incident was Created** ➜ is the beggining of our **Detection Phase**.
-> 
->   </details>
+**<summary> 💡 Context</summary>**
+
+Basically NIST 800-53 contains a whole bunch of control families with different Controls that you can apply to your Environment.
+
+NIST 800-53 is not specific to any Environment ➜ they're just generalized Controls.
+
+But Microsoft created this NIST 800-53 Policy to map those General Controls to things that we can actually do inside of Azure.
+
+This are the general Control Families defined by NIST:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+If we expand one of the Control Families ➜ **“AC. Access Control”** for example:
+
+It shows what we can do inside of the Azure Portal to our Resources to be “Compliant” with each individual Sub-Control:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+Again as an example: for **IR-6(2)** as defined by NIST ➜ there could be some improvements made in our Environment.
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+We can click on the first **Automated assessment** ➜ and MDC will give us Instructions on how to remediate this issue:
+
+<br>
+
+![azure portal](https://github.com/user-attachments/assets/9c1cce53-082a-4c9e-b6d5-7da25a14a9d7)
+
+<br>
+
+If we expand the ∨ **Remediation steps** ➜ it'll give us the Steps to Take in order to Manually Remidiate this Sub-Control.
+
+  </details>
+
+
+
+In our upcoming lab we're going to implement **SC-7**, in order to remediate
+
+
+
+
+
+
+
+
+
 
 
 
