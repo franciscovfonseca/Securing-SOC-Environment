@@ -17,7 +17,7 @@ We also **Captured our Environment's Traffic** in an Insecured State for 24 hour
 
 <br>
 
-In this lab, and in the subsequent ones, we’ll work towards **Securing our Environment**.
+In this next step of our Project we’ll work towards **Securing our Environment**.
 
 <br>
 
@@ -33,15 +33,17 @@ Basically in this lab we’re going to:
 
 >   <details close> 
 >   
-> **<summary> 💡 Note</summary>**
+> **<summary> 💭 Reminder</summary>**
 > 
-> If you remember ➜ NIST 800-53 is the Security and Privacy control family.
+> If you remember ➜ **NIST 800-53** is the **Security and Privacy Control Family**.
 > 
-> It’s basically just a really large catalog of controls that you can use to either evaluate or help secure your environment.
+> It’s basically just a really large **Catalog of Controls** that we can use to either **Evaluate** or help **Secure our Environment**.
 > 
-> And basically, when we enable the NIST 800-53 Regulatory Compliance in Azure – it’s going to show us things that we can do in Azure to secure our Environment that kind of align with NIST 800-53 controls.
+> When we enable the **NIST 800-53 Regulatory Compliance** in **Azure**:
+>   
+>  - It’s going to show us things that we can do in Azure to **Secure our Environment** ➜ that align with **NIST 800-53 Controls**.
 > 
-> And I think it’s really good, because it gives us a better intuition of what NIST 800-53 is for, and like how it’s used and why it’s useful.
+> It gives us a better intuition of What NIST 800-53 is, How it’s Used and Why it’s Useful.
 >   
 >   </details>
 
@@ -112,7 +114,7 @@ It’ll show us areas that essentially have gaps:
 <h2></h2>
 <br>
 
-<h3>Inspect MDC Recommendations:</h3>
+<h3>Inspect MDC Recommendations</h3>
 
 <br>
 
