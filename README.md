@@ -71,7 +71,7 @@ We’ll go to the **Azure Portal** ➜ open **Microsoft Defender for Cloud**:
 > 
 > Defender for Cloud provides us with a 🛡️ **Secure Score**.
 > 
-> It’s sort of a single metric that we can use to gage our Security Posture and how good it is.
+> It’s a single metric that we can use to gage our **Security Posture** and how good it is.
 >   
 >   </details>
 
@@ -126,7 +126,7 @@ If we click on ```View recommendations >```:
 
 <br>
 
-it'll show all the things that are contributing to our Secure Score ➜ areas in our environment that essentially have "Gaps".
+It'll show all the things that are contributing to our **Secure Score** ➜ areas in our Environment that essentially have "Gaps".
 
 <br>
 
@@ -134,7 +134,7 @@ it'll show all the things that are contributing to our Secure Score ➜ areas in
 
 <br>
 
-We can implent things in Azure ➜ make some configurations to get our Secure Score to go up.
+We can implent things in **Azure** ➜ make some Configurations to get our **Secure Score** to go Up.
 
 For example: under ```> Restrict unauthorized network access``` ➜ if we click on the first Recommendation:
 
@@ -148,7 +148,7 @@ MDC will give us Recommendations on how we can fix it:
 
 - There's a detailed **Description** of what the Recomendation involves.
   
-- And there's also the **Remidiation Steps** section that breaks down what we have do to Remediate the issue.
+- And there's also the **Remediation Steps** section that breaks down what we have do to Remediate the issue.
 
 <br>
 
@@ -208,7 +208,11 @@ For example: inside of **"SC - SYSTEM AND COMMUNICATION PROTECTION"** ➜ there'
 
 <br>
 
-So when we enable NIST 800-53 Regulatory Compliance inside of Defender for Cloud ➜ it’s basically going to look at all the different Controls inside of NIST 800-53 and talk about different things we can do in our Environment that align with, for example, SC-7 or SC11:
+When we enable NIST 800-53 Regulatory Compliance inside of Defender for Cloud:
+
+  - It’s basically going to look at all the different Controls inside of NIST 800-53
+    
+  - And it'll suggest different things we can do in our Environment that align with, for example, SC-7:
 
 <br>
 
@@ -287,7 +291,7 @@ After waiting a while ➜ we can confirm that **NIST 800-53 R5** was successfull
 
 ⚠️ Again ➜ it takes some time for the policy to be added to our Environment.
 
-But eventually it should appear inside of our MDC Dashboard ➜ under **Regulatory Compliance**:
+But eventually it should appear inside of our MDC Dashboard ➜ under **Regulatory compliance**:
 
 <br>
 
@@ -324,7 +328,7 @@ It shows what we can do inside of the Azure Portal to our Resources to be “Com
 
 <br>
 
-Again as an example: for **IR-6(2)** as defined by NIST ➜ there could be some improvements made in our Environment.
+Again as an example: for **IR-6(2)** as defined by NIST ➜ there could be some improvements made in our Environment:
 
 <br>
 
