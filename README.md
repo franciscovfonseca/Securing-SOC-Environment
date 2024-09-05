@@ -41,7 +41,7 @@ Basically in this lab we’re going to:
 > 
 > When we enable the **NIST 800-53 Regulatory Compliance** in **Azure**:
 >   
->  - It’s going to show us things that we can do in Azure to **Secure our Environment** ➜ that align with **NIST 800-53 Controls**.
+>  - It’s going to show us things that we can do in Azure to **Secure our Environment** ➜ which align with **NIST 800-53 Controls**.
 > 
 > It gives us a better intuition of What NIST 800-53 is, How it’s Used and Why it’s Useful.
 >   
