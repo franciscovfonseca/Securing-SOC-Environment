@@ -39,11 +39,16 @@ Basically in this lab we’re going to:
 > 
 > It’s basically just a really large **Catalog of Controls** that we can use to either **Evaluate** or help **Secure our Environment**.
 > 
-> When we enable the **NIST 800-53 Regulatory Compliance** in **Azure**:
+> <br>
 >   
->  - It’s going to show us things that we can do in Azure to **Secure our Environment** ➜ which align with **NIST 800-53 Controls**.
+> When we Enable the **NIST 800-53 Regulatory Compliance** in **Azure**:
+>   
+> ➡️ It’s going to show us things that we can do in Azure to **Secure our Environment** ➜ which align with **NIST 800-53 Controls**.
 > 
-> It gives us a better intuition of What NIST 800-53 is, How it’s Used and Why it’s Useful.
+> It gives us a better intuition of:
+>   - What is NIST 800-53.
+>   - How it’s Used.
+>   - Why it’s Useful.
 >   
 >   </details>
 
