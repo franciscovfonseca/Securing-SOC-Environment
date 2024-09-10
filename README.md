@@ -11,7 +11,7 @@
 
 <br>
 
-In the previous labs we performed some **Incident Response**, and we even **Remediated some Vulnerabilities** like Hardening the NSGs.
+In the [Previous Lab](https://github.com/franciscovfonseca/Working-Incidents-and-Incident-Response/blob/main/README.md) we performed **Incident Response**, and we even **Remediated some Vulnerabilities** like Hardening the NSGs.
 
 We also **Captured our Environment's Traffic** in an Insecured State for 24 hours & **Recorded our Security Metrics**.
 
