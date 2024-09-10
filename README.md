@@ -331,7 +331,7 @@ If we expand the ```∨ Remediation steps``` ➜ it'll give us the Steps to Take
 <h1>Summary</h1>
 <br>
 
-In this lab we Enabled NIST 800-53 Regulatory Compliance Policy.
+In this lab we **Enabled NIST 800-53 Regulatory Compliance Policy** ✅
 
 Basically when we did that ➜ Azure looked at our entire Environment and compared it to NIST 800-53 General Control Families:
 
@@ -346,7 +346,9 @@ Basically when we did that ➜ Azure looked at our entire Environment and compar
 
 In doing so, it essentially found all the weak spots in our Environment that could be addressed by the **NIST 800-53 Control Catalog**.
 
-➡️ And in the [Next Lab](https://github.com/franciscovfonseca/Secure-SOC-Environmentn-Part-2/blob/main/README.md) we'll start remediating a few of these **Compliance Controls**.
+<br>
+
+➡️ In the [Next Lab](https://github.com/franciscovfonseca/Secure-SOC-Environmentn-Part-2/blob/main/README.md) we'll start remediating a few of these **Compliance Controls**.
 
 
 <br>
