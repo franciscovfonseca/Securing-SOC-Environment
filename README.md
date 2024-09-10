@@ -346,7 +346,7 @@ Basically when we did that ➜ Azure looked at our entire Environment and compar
 
 In doing so, it essentially found all the weak spots in our Environment that could be addressed by the **NIST 800-53 Control Catalog**.
 
-➡️ And in the next lab we'll start remediating a few of these **Compliance Controls**.
+➡️ And in the [Next Lab](https://github.com/franciscovfonseca/Secure-SOC-Environmentn-Part-2/blob/main/README.md) we'll start remediating a few of these **Compliance Controls**.
 
 
 <br>
